@@ -1,77 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
   const languagesData = {
-    am: {
-      code: "am",
-      name: "Amharic",
-      nativeName: "አማርኛ",
-      twoLettersCode: "am",
-    },
-    ar: {
-      code: "ar",
-      name: "Arabic",
-      nativeName: "عربي",
-      twoLettersCode: "ar",
-    },
-    "zh-CN": {
-      code: "zh-CN",
-      name: "Simplified Chinese",
-      nativeName: "简体中文",
-      twoLettersCode: "zh",
-    },
-    "zh-TW": {
-      code: "zh-TW",
-      name: "Traditional Chinese",
-      nativeName: "繁體中文",
-      twoLettersCode: "zh",
-    },
-    en: {
-      code: "en",
-      name: "English",
-      nativeName: "English",
-      twoLettersCode: "en",
-    },
-    ko: {
-      code: "ko",
-      name: "Korean",
-      nativeName: "한국어",
-      twoLettersCode: "ko",
-    },
-    ru: {
-      code: "ru",
-      name: "Russian",
-      nativeName: "Русский",
-      twoLettersCode: "ru",
-    },
-    so: {
-      code: "so",
-      name: "Somali",
-      nativeName: "Soomaali",
-      twoLettersCode: "so",
-    },
-    "es-US": {
-      code: "es-US",
-      name: "Spanish",
-      nativeName: "Español",
-      twoLettersCode: "es",
-    },
-    tl: {
-      code: "tl",
-      name: "Tagalog",
-      nativeName: "Tagalog",
-      twoLettersCode: "tl",
-    },
-    uk: {
-      code: "uk",
-      name: "Ukrainian",
-      nativeName: "Українська",
-      twoLettersCode: "uk",
-    },
-    vi: {
-      code: "vi",
-      name: "Vietnamese",
-      nativeName: "Tiếng Việt",
-      twoLettersCode: "vi",
-    },
+    am: { code: "am", name: "Amharic", nativeName: "አማርኛ", twoLettersCode: "am" },
+    ar: { code: "ar", name: "Arabic", nativeName: "عربي", twoLettersCode: "ar" },
+    "zh-CN": { code: "zh-CN", name: "Simplified Chinese", nativeName: "简体中文", twoLettersCode: "zh" },
+    "zh-TW": { code: "zh-TW", name: "Traditional Chinese", nativeName: "繁體中文", twoLettersCode: "zh" },
+    "fa-AF": { code: "fa-AF", name: "Dari", nativeName: "دری", twoLettersCode: "fa" },
+    en: { code: "en", name: "English", nativeName: "English", twoLettersCode: "en" },
+    fr: { code: "fr", name: "French", nativeName: "Français", twoLettersCode: "fr" },
+    ko: { code: "ko", name: "Korean", nativeName: "한국어", twoLettersCode: "ko" },
+    ru: { code: "ru", name: "Russian", nativeName: "Русский", twoLettersCode: "ru" },
+    so: { code: "so", name: "Somali", nativeName: "Soomaали", twoLettersCode: "so" },
+    "es-US": { code: "es-US", name: "Spanish", nativeName: "Español", twoLettersCode: "es" },
+    ti: { code: "ti", name: "Tigrinya", nativeName: "ትግርኛ", twoLettersCode: "ti" },
+    tl: { code: "tl", name: "Tagalog", nativeName: "Tagalog", twoLettersCode: "tl" },
+    uk: { code: "uk", name: "Ukrainian", nativeName: "Українська", twoLettersCode: "uk" },
+    vi: { code: "vi", name: "Vietnamese", nativeName: "Tiếng Việt", twoLettersCode: "vi" }
   };
 
   function handlePopupVisibility() {
@@ -161,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function updateLayoutForLanguage(langCode) {
-    const isRtl = ["ar"].includes(langCode);
+    const isRtl = ["ar", "fa-AF"].includes(langCode);
     document.documentElement.setAttribute("dir", isRtl ? "rtl" : "ltr");
     document.documentElement.classList.toggle("rtl", isRtl);
   }
