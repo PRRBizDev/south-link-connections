@@ -593,23 +593,29 @@
       }
     }
 
-    populateLanguagesDropdown() {
-      const dropdown = document.querySelector(".navbar_dropdown-list");
-      if (!dropdown) return;
+populateLanguagesDropdown() {
+  const dropdown = document.querySelector(".navbar_dropdown-list");
+  if (!dropdown) return;
 
-      dropdown.innerHTML = "";
-      Object.values(LANGUAGES).forEach((lang) => {
-        const link = document.createElement("a");
-        link.href = `/?lng=${lang.code}`;
-        link.className = "navbar_dropdown-link w-dropdown-link";
-        link.textContent =
-          lang.code === "en" || lang.code === "tl"
-            ? lang.nativeName
-            : `${lang.nativeName} (${lang.name})`;
-        link.dataset.langCode = lang.code;
-        dropdown.appendChild(link);
-      });
+  dropdown.innerHTML = "";
+  Object.values(LANGUAGES).forEach((lang) => {
+    const link = document.createElement("a");
+    link.href = `/?lng=${lang.code}`;
+    link.className = "navbar_dropdown-link w-dropdown-link";
+
+    // Add w--current class if this is the current language
+    if (lang.code === this.currentLang) {
+      link.classList.add("w--current");
     }
+
+    link.textContent =
+      lang.code === "en" || lang.code === "tl"
+        ? lang.nativeName
+        : `${lang.nativeName} (${lang.name})`;
+    link.dataset.langCode = lang.code;
+    dropdown.appendChild(link);
+  });
+}
 
     updateContent(langCode) {
       this.updateNavbarDisplay(langCode);
@@ -880,6 +886,16 @@ updateRoutePdfLinks(langCode) {
     }
 
     handleLanguageSelection(langCode) {
+      // Remove current highlight from all links
+      document.querySelectorAll('.navbar_dropdown-link').forEach(link => {
+        link.classList.remove('w--current');
+      });
+
+      // Add highlight to selected language
+      const selectedLink = document.querySelector(`[data-lang-code="${langCode}"]`);
+      if (selectedLink) {
+        selectedLink.classList.add('w--current');
+      }
       localStorage.setItem("selectedLanguage", langCode);
       this.currentLang = langCode;
       this.updateContent(langCode);
