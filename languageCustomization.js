@@ -530,6 +530,29 @@
         vi: "https://kingcounty.gov/vi-vn/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
       },
     },
+    sideMap: {
+      main: {
+        am: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c223f17b418e887fc6e_P2SLC_CurrPropSidebySide_AM.pdf",
+        ar: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c227facd6084171913a_P2SLC_CurrPropSidebySide_AR.pdf",
+        "zh-CN":
+          "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c2420ffc86da56aace9_P2SLC_CurrPropSidebySide_ZH-CN.pdf",
+        "zh-TW":
+          "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5cc2e9461c6882dff379_P2SLC_CurrPropSidebySide_ZH-TW.pdf",
+        "fa-AF":
+          "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c22c7fd8e83a8a4c300_P2SLC_CurrPropSidebySide_fa-AF.pdf",
+        en: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d58cf3e5eb70a566bdc6a_P2SLC_CurrPropSidebySide_en.pdf",
+        fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c22771d7bd769589ba3_P2SLC_CurrPropSidebySide_FR.pdf",
+        ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c22528b3b2aa790887a_P2SLC_CurrPropSidebySide_KO.pdf",
+        ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c23149665d2839b3faa_P2SLC_CurrPropSidebySide_RU.pdf",
+        so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c23a0aad614c02e7513_P2SLC_CurrPropSidebySide_SO.pdf",
+        "es-US":
+          "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c227facd60841719153_P2SLC_CurrPropSidebySide_es-US.pdf",
+        ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c23c9614f13fc955774_P2SLC_CurrPropSidebySide_TI.pdf",
+        tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c235416fd8456a182bd_P2SLC_CurrPropSidebySide_TL.pdf",
+        uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c23f849e8119583b165_P2SLC_CurrPropSidebySide_UK.pdf",
+        vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672d5c247facd60841719488_P2SLC_CurrPropSidebySide_VI.pdf",
+      },
+    },
   };
 
   class WebflowLanguageSwitcher {
@@ -594,6 +617,8 @@
       this.updateImages(langCode);
       this.updateSurveyLinks(langCode);
       this.updatePartnerBoardLinks(langCode);
+      this.updateSideMapLinks(langCode);
+
       this.updateRoutePdfLinks(langCode);
     }
 
@@ -735,6 +760,24 @@
         }
       } catch (error) {
         console.warn("Error updating partner board links:", error);
+      }
+    }
+
+    updateSideMapLinks(langCode) {
+      try {
+        const sideMapUrl =
+          URL_PATHS.sideMap.main[langCode] ||
+          URL_PATHS.sideMap.main["en"];
+        if (sideMapUrl) {
+          // Update all side map links
+          document
+            .querySelectorAll(".side-map-link")
+            .forEach((link) => {
+              link.href = sideMapUrl;
+            });
+        }
+      } catch (error) {
+        console.warn("Error updating side map links:", error);
       }
     }
 
