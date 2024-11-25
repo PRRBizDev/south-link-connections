@@ -101,90 +101,74 @@
           current: {
             am: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673bcfbf67492472b91746e7_north-area-map-current_am.jpg",
             ar: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e17e9a1281a8b57ca5521_north-area-map-current_ar.jpg",
-            "zh-CN":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299162e783307e2153a343_north-area-map-current_zh-cn.jpg",
-            "zh-TW":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6729916299654f6726b46e76_north-area-map-current_zh-tw.jpg",
-            "fa-AF":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299160c5c842c1cd314060_north-area-map-current_fa-AF.jpg",
+            "zh-CN": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52666\5dc85b813bad3ea_north-area-map-current_zh-CN.jpg",
+            "zh-TW": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52658025a103397ac334_north-area-map-current_zh-TW.jpg",
+            "fa-AF": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52614903f84c981516ac_north-area-map-current_fa-AF.jpg",
             en: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6722a1aa7123afd607556c55_north-area-map-current_en.jpg",
-            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299161b2029beb5bd5df90_north-area-map-current_fr.jpg",
-            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672991605bd50b2b0a821137_north-area-map-current_ko.jpg",
-            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672991616a55c3202e8bc753_north-area-map-current_ru.jpg",
-            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672991618458fe142f233a69_north-area-map-current_so.jpg",
-            "es-US":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6729916031f07097dd036458_north-area-map-current_es-US.jpg",
-            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6729916133cdf377ba111f77_north-area-map-current_ti.jpg",
-            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672993c212491d13253654d7_north-area-map-current_tl.jpg",
-            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672991614eae3b90700f3c86_north-area-map-current_uk.jpg",
-            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6729916133cdf377ba111f93_north-area-map-current_vi.jpg",
+            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5261ae11be0fff8ea458_north-area-map-current_fr.jpg",
+            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52607b2642c89d9d0bf5_north-area-map-current_ko.jpg",
+            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52639413b769288ebd8e_north-area-map-current_ru.jpg",
+            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52627df78638d29d78f5_north-area-map-current_so.jpg",
+            "es-US": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52627123dad83c345cc2_north-area-map-current_es-US.jpg",
+            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5264dc4ad6a7c4eacd30_north-area-map-current_ti.jpg",
+            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e526343b7069eccd2488e_north-area-map-current_tl.jpg",
+            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52633ad14c3cc0a6bece_north-area-map-current_uk.jpg",
+            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e52659aa0efa0f07518e3_north-area-map-current_vi.jpg"
           },
           proposed: {
             am: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673cc67bdb3e8f39eb1f47c8_north-area-map-proposed_am.jpg",
             ar: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e180cf7ed0c957ec966b5_north-area-map-proposed_ar.jpg",
-            "zh-CN":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6dfbffd955409ddef2_north-area-map-proposed_zh-cn.jpg",
-            "zh-TW":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6d78530d529336e7bc_north-area-map-proposed_zh-tw.jpg",
-            "fa-AF":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6bcd731a1f0b6d0c87_north-area-map-proposed_fa-AF.jpg",
+            "zh-CN": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e2ae11be0fff8e3af8_north-area-map-proposed_zh-CN.jpg",
+            "zh-TW": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e48025a103397a4fa1_north-area-map-proposed_zh-TW.jpg",
+            "fa-AF": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e06e314f0972758f3c_north-area-map-proposed_fa-AF.jpg",
             en: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6722a1aa7123afd607556c53_north-area-map-proposed_en.jpg",
-            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6b79d42fdd90d6beee_north-area-map-proposed_fr.jpg",
-            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6b6e373e92a0b68409_north-area-map-proposed_ko.jpg",
-            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6bf62f3dfa57e58ca7_north-area-map-proposed_ru.jpg",
-            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6b3d8968f4ca9a113d_north-area-map-proposed_so.jpg",
-            "es-US":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6b3d8968f4ca9a1107_north-area-map-proposed_es-US.jpg",
-            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6c870ecd048975493e_north-area-map-proposed_ti.jpg",
-            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6cfa02c1674d3f0404_north-area-map-proposed_tl.jpg",
-            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6cd898c1b53a7852ad_north-area-map-proposed_uk.jpg",
-            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299c6c70ce88242dcbe790_north-area-map-proposed_vi.jpg",
-          },
+            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e1e101ad881ad12e09_north-area-map-proposed_fr.jpg",
+            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e1fc0681da53dda06e_north-area-map-proposed_ko.jpg",
+            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e1611038a168b5b36b_north-area-map-proposed_ru.jpg",
+            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e4fc22b6b36dfa9ebf_north-area-map-proposed_so.jpg",
+            "es-US": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e0838d6c1f678a9ede_north-area-map-proposed_es-US.jpg",
+            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e3aae90776a77868a8_north-area-map-proposed_ti.jpg",
+            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e30ead29876fb187ae_north-area-map-proposed_tl.jpg",
+            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e22c3d6fa08e0b9628_north-area-map-proposed_uk.jpg",
+            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e51e3e101ad881ad12f32_north-area-map-proposed_vi.jpg"
+          }
         },
         south: {
           current: {
             am: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e1a2fce552deb01e59ac9_south-area-map-current_am.jpg",
             ar: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e175d7e174391cecbc46f_south-area-map-current_ar.jpg",
-            "zh-CN":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a7cd731a1f0b6622f3_south-area-map-current_zh-cn.jpg",
-            "zh-TW":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a8da163c48a5620e7d_south-area-map-current_zh-tw.jpg",
-            "fa-AF":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a5b2029beb5bd8c8b2_south-area-map-current_fa-AF.jpg",
+            "zh-CN": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e532165dc85b813bb83d1_south-area-map-current_zh-CN.jpg",
+            "zh-TW": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5320e40938971bbc3487_south-area-map-current_zh-TW.jpg",
+            "fa-AF": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e531f0717ab8e465cd035_south-area-map-current_fa-AF.jpg",
             en: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6722a1aa7123afd607556c54_south-area-map-current_en.jpg",
-            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a5e783307e21563793_south-area-map-current_fr.jpg",
-            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a60affc77b434627a0_south-area-map-current_ko.jpg",
-            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a579d42fdd90cff377_south-area-map-current_ru.jpg",
-            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a66a55c3202e8e7c79_south-area-map-current_so.jpg",
-            "es-US":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a4e783307e21563752_south-area-map-current_es-US.jpg",
-            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a6870ecd04896ebb5b_south-area-map-current_ti.jpg",
-            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a66a55c3202e8e7c50_south-area-map-current_tl.jpg",
-            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a66a55c3202e8e7c5a_south-area-map-current_uk.jpg",
-            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672994a641b7f1ade7ae1ab6_south-area-map-current_vi.jpg",
+            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e531f4de2e5ca92a8746d_south-area-map-current_fr.jpg",
+            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e531eb8eb201ce7080907_south-area-map-current_ko.jpg",
+            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e531f65dc85b813bb82d7_south-area-map-current_ru.jpg",
+            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e531f0ead29876fb28973_south-area-map-current_so.jpg",
+            "es-US": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e531e1701e74fbb36d877_south-area-map-current_es-US.jpg",
+            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5321ac827ab864d93378_south-area-map-current_ti.jpg",
+            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5320120b91a896a95fff_south-area-map-current_tl.jpg",
+            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5321c1c6e9a0814fc898_south-area-map-current_uk.jpg",
+            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e53212a05f95d614c07d5_south-area-map-current_vi.jpg"
           },
           proposed: {
             am: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e1a6d34883214dda9e856_south-area-map-proposed_am.jpg",
             ar: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e177a7391b30d31339c16_south-area-map-proposed_ar.jpg",
-            "zh-CN":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f631f07097dd098e0f_south-area-map-proposed_zh-cn.jpg",
-            "zh-TW":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f633cdf377ba17247b_south-area-map-proposed_zh-tw.jpg",
-            "fa-AF":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f412f9fd5118db3d15_south-area-map-proposed_fa-AF.jpg",
+            "zh-CN": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5354e015ef111e1dac85_south-area-map-proposed_zh-CN.jpg",
+            "zh-TW": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5355b8eb201ce7084b3b_south-area-map-proposed_zh-TW.jpg",
+            "fa-AF": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e535142ccb5df2beaee8b_south-area-map-proposed_fa-AF.jpg",
             en: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/6722a1aa7123afd607556c52_south-area-map-proposed_en.jpg",
-            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f579d42fdd90d3cd8d_south-area-map-proposed_fr.jpg",
-            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f578530d5293341744_south-area-map-proposed_ko.jpg",
-            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f570ce88242dc89fcc_south-area-map-proposed_ru.jpg",
-            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f5fa02c1674d3c3db0_south-area-map-proposed_so.jpg",
-            "es-US":
-              "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f4fbffd955409b2722_south-area-map-proposed_es-US.jpg",
-            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f53d8968f4ca975108_south-area-map-proposed_ti.jpg",
-            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299f47bce0b1362a5ed677_south-area-map-proposed_tl.jpg",
-            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/672998f5fc86a99437450725_south-area-map-proposed_uk.jpg",
-            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/67299f800affc77b434fa0f5_south-area-map-proposed_vi.jpg",
-          },
-        },
+            fr: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5351de875610bbc477ea_south-area-map-proposed_fr.jpg",
+            ko: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e53519a4acce992d1f9f3_south-area-map-proposed_ko.jpg",
+            ru: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5352bd9474df8e2e7956_south-area-map-proposed_ru.jpg",
+            so: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5352aae90776a779bf7c_south-area-map-proposed_so.jpg",
+            "es-US": "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e53504de2e5ca92a89938_south-area-map-proposed_es-US.jpg",
+            ti: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e535395aadbccb063df48_south-area-map-proposed_ti.jpg",
+            tl: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5353838d6c1f678bf3b0_south-area-map-proposed_tl.jpg",
+            uk: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5354842f1205e0659f3b_south-area-map-proposed_uk.jpg",
+            vi: "https://cdn.prod.website-files.com/6722a1aa7123afd607556ae7/673e5354e40938971bbc5dc6_south-area-map-proposed_vi.jpg"
+          }
+        }
       },
       network: {
         current: {
