@@ -11,7 +11,7 @@
     ar: {
       code: "ar",
       name: "Arabic",
-      nativeName: "عربي",
+      nativeName: "لعربية",
       twoLettersCode: "ar",
     },
     "zh-CN": {
@@ -59,7 +59,7 @@
     so: {
       code: "so",
       name: "Somali",
-      nativeName: "Soomaали",
+      nativeName: "Af Soomaali",
       twoLettersCode: "so",
     },
     "es-US": {
