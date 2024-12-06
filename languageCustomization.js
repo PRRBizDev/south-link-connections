@@ -493,19 +493,19 @@
     },
     partnerBoard: {
       application: {
-        am: "https://kingcounty.gov/en/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form/am",
-        ar: "https://kingcounty.gov/en/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form/ar",
+        am: "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form/am",
+        ar: "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form/ar",
         "zh-CN":
-          "https://kingcounty.gov/zh-cn/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form",
+          "https://kingcounty.gov/zh-cn/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
         "zh-TW":
-          "https://kingcounty.gov/en/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form/zh-hant",
+          "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form/zh-hant",
         "fa-AF":
-          "https://kingcounty.gov/en/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form/prs",
-        en: "https://kingcounty.gov/en/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form",
-        fr: "https://kingcounty.gov/en/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form/fr",
-        ko: "https://kingcounty.gov/ko-kr/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form",
-        ru: "https://kingcounty.gov/ru-ru/dept/metro/programs-and-projects.com/south-link-connections.com/partner-review-board-form",
-        so: "https://kingcounty.gov/so-so/dept/metro/programs-and-projects.com/south-link-connections/partner-review-board-form",
+          "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form/prs",
+        en: "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
+        fr: "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form/fr",
+        ko: "https://kingcounty.gov/ko-kr/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
+        ru: "https://kingcounty.gov/ru-ru/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
+        so: "https://kingcounty.gov/so-so/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
         "es-US":
           "https://kingcounty.gov/es-es/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form",
         ti: "https://kingcounty.gov/en/dept/metro/programs-and-projects/south-link-connections/partner-review-board-form/ti",
